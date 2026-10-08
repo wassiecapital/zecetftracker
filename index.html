@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zcash ETF Flows</title>
+<meta name="description" content="Daily net creation flows for US-listed spot Zcash ETFs, derived from issuer shares outstanding and NAV.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='13'>ⓩ</text></svg>">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-src="data/zec_flows.json" data-asset="ZEC">
+<div class="wrap">
+
+  <header>
+    <div class="hgroup">
+      <h1>Zcash ETF flows</h1>
+      <p class="sub">US-listed spot Zcash ETFs — net creations per session, derived from issuer shares outstanding × NAV.</p>
+      <p class="meta" id="updated">loading…</p>
+    </div>
+    <div class="controls">
+      <div class="seg" id="ranges">
+        <button data-range="1m">1M</button>
+        <button data-range="3m">3M</button>
+        <button data-range="6m">6M</button>
+        <button data-range="all" aria-pressed="true">All</button>
+      </div>
+      <div class="seg" id="grain">
+        <button data-grain="d" aria-pressed="true">D</button>
+        <button data-grain="w">W</button>
+      </div>
+      <button id="toggle-table">Table view</button>
+      <button id="dl">CSV</button>
+      <button id="theme" title="Toggle light / dark">Theme</button>
+    </div>
+  </header>
+
+  <nav class="siblings" aria-label="Other trackers">
+    <a href="../ltcetftracker/">LTC</a>
+    <a href="../nearetftracker/">NEAR</a>
+    <a href="../zecetftracker/" aria-current="page">ZEC</a>
+    <span class="sep">US spot ETF creation flows</span>
+  </nav>
+
+  <div class="tiles" id="tiles"></div>
+
+  <section>
+    <h2>Net flow by session</h2>
+    <p class="cap">Share count × NAV, session by session, from the ETF's first trade on 25 Aug 2026. Flow is money in and out — it ignores what Zcash did to the price, which for this asset is the larger number most days. Unlike the LTC and NEAR funds, this one converted from a trust, so legacy holders can redeem: genuine outflows are structurally possible here and do appear.</p>
+    <div class="legend">
+      <span><i class="swatch" style="background:var(--in)"></i>Creations (inflow)</span>
+      <span><i class="swatch" style="background:var(--out)"></i>Redemptions (outflow)</span>
+      <span id="ma-legend" hidden><i class="swatch" style="background:var(--text-2)"></i>10-session average</span>
+    </div>
+    <div class="chart" id="c-flow"></div>
+  </section>
+
+  <section>
+    <h2>Cumulative net flow</h2>
+    <p class="cap">Every creation since listing, summed. Conversion day itself carries no flow — the trust's assets arrived years earlier, they were not created on day one.</p>
+    <div class="chart" id="c-cum"></div>
+  </section>
+
+  <section>
+    <h2>Shares outstanding</h2>
+    <p class="cap">The mechanism behind the lumpiness. Shares move only in creation baskets struck by an authorised participant, so this is a staircase, not a curve.</p>
+    <div class="chart" id="c-shares"></div>
+  </section>
+
+  <section>
+    <h2>The complex</h2>
+    <p class="cap">Every US-listed single-asset Zcash product, trading or filed. One fund trades today — read a quiet tape as a one-fund tape, not as an absent asset class.</p>
+    <div class="scroll" id="funds"></div>
+  </section>
+
+  <section id="actions-sec" hidden>
+    <h2>Corporate actions</h2>
+    <p class="cap">Splits break a flow model built on change in shares outstanding. Grayscale restates its published history across one, so nothing artificial reaches the series — but the collector checks every run rather than trusting that, and anything it finds is listed here with its flow suppressed.</p>
+    <div id="actions"></div>
+  </section>
+
+  <section id="watch-sec">
+    <h2>Listing watch</h2>
+    <p class="cap">Checked against SEC EDGAR on every run. A Form 8-A12B is the filing that means a pending trust is days from listing — when one appears, add its adapter to <code>scripts/funds.py</code>.</p>
+    <div id="watch"></div>
+  </section>
+
+  <section id="sessions-sec" hidden>
+    <h2>All sessions</h2>
+    <p class="cap">The same data as a table, newest first.</p>
+    <div class="scroll tall" id="sessions"></div>
+  </section>
+
+  <section>
+    <h2>Method and caveats</h2>
+    <p class="cap" id="method"></p>
+    <ul class="notes" id="caveats"></ul>
+  </section>
+
+  <footer>
+    Source: Grayscale's published daily-performance workbook for ZCSH and
+    <a href="https://www.sec.gov/edgar/searchedgar/companysearch">SEC EDGAR</a> for listing status.
+    Rebuilt daily by GitHub Actions. Not investment advice; verify against the issuer before citing.
+  </footer>
+
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1582 @@
+{
+ "asset": "ZEC",
+ "asset_name": "Zcash",
+ "updated_utc": "2026-10-08T09:40:08+00:00",
+ "method": "flow = change in shares outstanding x NAV, per fund, per trading day, from the ETF's first trade date; NAV and shares come from the issuer's own daily workbook and are split-restated",
+ "funds": [
+  {
+   "ticker": "ZCSH",
+   "issuer": "Grayscale",
+   "name": "The Zcash ETF",
+   "exchange": "NYSE Arca",
+   "status": "live",
+   "adapter": "grayscale_xlsx",
+   "fee": 0.025,
+   "stakes": false,
+   "first_trade": "2026-08-25",
+   "cik": "1720265",
+   "product_uuid": "c131f37d-6f8f-4af9-8645-346503081d6a",
+   "source": "https://reporting-prod-20231113144948145500000003.s3.amazonaws.com/product-performance/c131f37d-6f8f-4af9-8645-346503081d6a.xlsx",
+   "fund_page": "https://etfs.grayscale.com/zcsh",
+   "splits": [
+    {
+     "date": "2026-09-30",
+     "ratio": 3.0,
+     "note": "3-for-1 forward split"
+    }
+   ]
+  },
+  {
+   "ticker": "WINK",
+   "issuer": "Winklevoss Asset Services",
+   "name": "Winklevoss Zcash ETF (proposed)",
+   "exchange": "Nasdaq (proposed)",
+   "status": "filed_s1",
+   "adapter": null,
+   "fee": 0.0025,
+   "stakes": false,
+   "cik": "2158471",
+   "note": "S-1 filed 6 Oct 2026 \u2014 the only filing on the CIK. No 8-A12B, 424B3, EFFECT or CERT, so it is nowhere near trading. Proposed unified fee of 0.25%, a tenth of ZCSH's, with Gemini as ZEC custodian. If it lists, it is the first fee competition this complex has seen."
+  }
+ ],
+ "live_tickers": [
+  "ZCSH"
+ ],
+ "coins_held": {
+  "ZCSH": {
+   "zec_per_share": 0.02664653,
+   "as_of": "2026-10-07"
+  }
+ },
+ "coins_total": {
+  "amount": 584302.4452,
+  "unit": "ZEC",
+  "as_of": "2026-10-07"
+ },
+ "splits": {
+  "ZCSH": {
+   "declared": [
+    {
+     "date": "2026-09-30",
+     "ratio": 3.0,
+     "note": "3-for-1 forward split"
+    }
+   ],
+   "detected_in_data": [],
+   "note": "Grayscale restates history across a split, so a declared split normally does not appear in the data. A detected one would."
+  }
+ },
+ "trust_era": {
+  "ZCSH": [
+   {
+    "date": "2026-03-04",
+    "shares": 14487900.0,
+    "nav": 6.66,
+    "market_price": 5.61,
+    "net_assets": 96515037.49,
+    "nav_change_pct": 0.1287
+   },
+   {
+    "date": "2026-03-05",
+    "shares": 14487900.0,
+    "nav": 6.24,
+    "market_price": 5.21,
+    "net_assets": 90455101.14,
+    "nav_change_pct": -0.063
+   },
+   {
+    "date": "2026-03-06",
+    "shares": 14487900.0,
+    "nav": 5.75,
+    "market_price": 4.81,
+    "net_assets": 83240260.62,
+    "nav_change_pct": -0.0796
+   },
+   {
+    "date": "2026-03-09",
+    "shares": 14487900.0,
+    "nav": 5.81,
+    "market_price": 5.0,
+    "net_assets": 84178890.22,
+    "nav_change_pct": 0.0116
+   },
+   {
+    "date": "2026-03-10",
+    "shares": 14487900.0,
+    "nav": 6.04,
+    "market_price": 5.2,
+    "net_assets": 87498376.18,
+    "nav_change_pct": 0.0396
+   },
+   {
+    "date": "2026-03-11",
+    "shares": 14487900.0,
+    "nav": 5.78,
+    "market_price": 5.08,
+    "net_assets": 83756137.23,
+    "nav_change_pct": -0.043
+   },
+   {
+    "date": "2026-03-12",
+    "shares": 14487900.0,
+    "nav": 5.65,
+    "market_price": 4.99,
+    "net_assets": 81917650.7,
+    "nav_change_pct": -0.0219
+   },
+   {
+    "date": "2026-03-13",
+    "shares": 14487900.0,
+    "nav": 5.74,
+    "market_price": 5.69,
+    "net_assets": 83208190.83,
+    "nav_change_pct": 0.0159
+   },
+   {
+    "date": "2026-03-16",
+    "shares": 14487900.0,
+    "nav": 7.2,
+    "market_price": 6.73,
+    "net_assets": 104281518.72,
+    "nav_change_pct": 0.253
+   },
+   {
+    "date": "2026-03-17",
+    "shares": 14487900.0,
+    "nav": 7.37,
+    "market_price": 7.34,
+    "net_assets": 106732864.97,
+    "nav_change_pct": 0.0236
+   },
+   {
+    "date": "2026-03-18",
+    "shares": 14487900.0,
+    "nav": 6.67,
+    "market_price": 6.35,
+    "net_assets": 96657401.4,
+    "nav_change_pct": -0.0946
+   },
+   {
+    "date": "2026-03-19",
+    "shares": 14487900.0,
+    "nav": 6.39,
+    "market_price": 6.1,
+    "net_assets": 92619098.52,
+    "nav_change_pct": -0.0415
+   },
+   {
+    "date": "2026-03-20",
+    "shares": 14487900.0,
+    "nav": 6.3,
+    "market_price": 5.72,
+    "net_assets": 91207633.5,
+    "nav_change_pct": -0.0151
+   },
+   {
+    "date": "2026-03-23",
+    "shares": 14487900.0,
+    "nav": 6.21,
+    "market_price": 6.06,
+    "net_assets": 89917109.15,
+    "nav_change_pct": -0.0138
+   },
+   {
+    "date": "2026-03-24",
+    "shares": 14487900.0,
+    "nav": 6.1,
+    "market_price": 6.01,
+    "net_assets": 88396652.52,
+    "nav_change_pct": -0.0172
+   },
+   {
+    "date": "2026-03-25",
+    "shares": 14487900.0,
+    "nav": 6.33,
+    "market_price": 6.17,
+    "net_assets": 91747648.68,
+    "nav_change_pct": 0.0383
+   },
+   {
+    "date": "2026-03-26",
+    "shares": 14487900.0,
+    "nav": 5.96,
+    "market_price": 6.0,
+    "net_assets": 86354019.33,
+    "nav_change_pct": -0.0589
+   },
+   {
+    "date": "2026-03-27",
+    "shares": 14487900.0,
+    "nav": 5.83,
+    "market_price": 5.6,
+    "net_assets": 84466379.49,
+    "nav_change_pct": -0.0218
+   },
+   {
+    "date": "2026-03-30",
+    "shares": 14487900.0,
+    "nav": 6.1,
+    "market_price": 5.9,
+    "net_assets": 88403355.72,
+    "nav_change_pct": 0.0469
+   },
+   {
+    "date": "2026-03-31",
+    "shares": 14487900.0,
+    "nav": 6.87,
+    "market_price": 6.89,
+    "net_assets": 99477273.83,
+    "nav_change_pct": 0.1251
+   },
+   {
+    "date": "2026-04-01",
+    "shares": 14487900.0,
+    "nav": 6.87,
+    "market_price": 6.77,
+    "net_assets": 99521300.35,
+    "nav_change_pct": 0.0005
+   },
+   {
+    "date": "2026-04-02",
+    "shares": 14487900.0,
+    "nav": 6.53,
+    "market_price": 7.24,
+    "net_assets": 94591160.37,
+    "nav_change_pct": -0.0495
+   },
+   {
+    "date": "2026-04-06",
+    "shares": 14487900.0,
+    "nav": 6.89,
+    "market_price": 7.12,
+    "net_assets": 99803886.36,
+    "nav_change_pct": 0.0557
+   },
+   {
+    "date": "2026-04-07",
+    "shares": 14487900.0,
+    "nav": 7.36,
+    "market_price": 7.4,
+    "net_assets": 106595086.86,
+    "nav_change_pct": 0.0677
+   },
+   {
+    "date": "2026-04-08",
+    "shares": 14487900.0,
+    "nav": 8.78,
+    "market_price": 9.0,
+    "net_assets": 127250211.96,
+    "nav_change_pct": 0.1939
+   },
+   {
+    "date": "2026-04-09",
+    "shares": 14487900.0,
+    "nav": 9.97,
+    "market_price": 9.72,
+    "net_assets": 144400375.85,
+    "nav_change_pct": 0.1347
+   },
+   {
+    "date": "2026-04-10",
+    "shares": 14487900.0,
+    "nav": 10.32,
+    "market_price": 10.07,
+    "net_assets": 149494804.76,
+    "nav_change_pct": 0.0355
+   },
+   {
+    "date": "2026-04-13",
+    "shares": 14487900.0,
+    "nav": 9.86,
+    "market_price": 9.58,
+    "net_assets": 142922836.87,
+    "nav_change_pct": -0.0439
+   },
+   {
+    "date": "2026-04-14",
+    "shares": 14487900.0,
+    "nav": 9.39,
+    "market_price": 8.51,
+    "net_assets": 136055753.27,
+    "nav_change_pct": -0.048
+   },
+   {
+    "date": "2026-04-15",
+    "shares": 14487900.0,
+    "nav": 9.66,
+    "market_price": 8.72,
+    "net_assets": 140008155.31,
+    "nav_change_pct": 0.0291
+   },
+   {
+    "date": "2026-04-16",
+    "shares": 14487900.0,
+    "nav": 9.3,
+    "market_price": 8.2,
+    "net_assets": 134779141.02,
+    "nav_change_pct": -0.0373
+   },
+   {
+    "date": "2026-04-17",
+    "shares": 14487900.0,
+    "nav": 8.92,
+    "market_price": 7.83,
+    "net_assets": 129281294.74,
+    "nav_change_pct": -0.0408
+   },
+   {
+    "date": "2026-04-20",
+    "shares": 14487900.0,
+    "nav": 8.59,
+    "market_price": 7.5,
+    "net_assets": 124396060.05,
+    "nav_change_pct": -0.0377
+   },
+   {
+    "date": "2026-04-21",
+    "shares": 14487900.0,
+    "nav": 8.32,
+    "market_price": 7.37,
+    "net_assets": 120560230.86,
+    "nav_change_pct": -0.0311
+   },
+   {
+    "date": "2026-04-22",
+    "shares": 14487900.0,
+    "nav": 8.64,
+    "market_price": 7.6,
+    "net_assets": 125136619.14,
+    "nav_change_pct": 0.0381
+   },
+   {
+    "date": "2026-04-23",
+    "shares": 14487900.0,
+    "nav": 9.03,
+    "market_price": 8.58,
+    "net_assets": 130770603.05,
+    "nav_change_pct": 0.0452
+   },
+   {
+    "date": "2026-04-24",
+    "shares": 14487900.0,
+    "nav": 9.65,
+    "market_price": 9.02,
+    "net_assets": 139828161.8,
+    "nav_change_pct": 0.0691
+   },
+   {
+    "date": "2026-04-27",
+    "shares": 14487900.0,
+    "nav": 9.53,
+    "market_price": 8.88,
+    "net_assets": 138027101.05,
+    "nav_change_pct": -0.0128
+   },
+   {
+    "date": "2026-04-28",
+    "shares": 14487900.0,
+    "nav": 9.02,
+    "market_price": 8.04,
+    "net_assets": 130639946.73,
+    "nav_change_pct": -0.0535
+   },
+   {
+    "date": "2026-04-29",
+    "shares": 14487900.0,
+    "nav": 8.66,
+    "market_price": 7.63,
+    "net_assets": 125459155.68,
+    "nav_change_pct": -0.0396
+   },
+   {
+    "date": "2026-04-30",
+    "shares": 14487900.0,
+    "nav": 9.42,
+    "market_price": 8.23,
+    "net_assets": 136515597.28,
+    "nav_change_pct": 0.0881
+   },
+   {
+    "date": "2026-05-01",
+    "shares": 14487900.0,
+    "nav": 10.35,
+    "market_price": 8.93,
+    "net_assets": 149947294.27,
+    "nav_change_pct": 0.0983
+   },
+   {
+    "date": "2026-05-04",
+    "shares": 14487900.0,
+    "nav": 11.08,
+    "market_price": 10.01,
+    "net_assets": 160596098.54,
+    "nav_change_pct": 0.0709
+   },
+   {
+    "date": "2026-05-05",
+    "shares": 14487900.0,
+    "nav": 12.1,
+    "market_price": 11.14,
+    "net_assets": 175282704.79,
+    "nav_change_pct": 0.0917
+   },
+   {
+    "date": "2026-05-06",
+    "shares": 14487900.0,
+    "nav": 14.97,
+    "market_price": 13.16,
+    "net_assets": 216937723.42,
+    "nav_change_pct": 0.2375
+   },
+   {
+    "date": "2026-05-07",
+    "shares": 14487900.0,
+    "nav": 15.11,
+    "market_price": 12.41,
+    "net_assets": 218865632.17,
+    "nav_change_pct": 0.0089
+   },
+   {
+    "date": "2026-05-08",
+    "shares": 14487900.0,
+    "nav": 15.47,
+    "market_price": 14.13,
+    "net_assets": 224112918.17,
+    "nav_change_pct": 0.0241
+   },
+   {
+    "date": "2026-05-11",
+    "shares": 14487900.0,
+    "nav": 15.03,
+    "market_price": 13.48,
+    "net_assets": 217768256.3,
+    "nav_change_pct": -0.0282
+   },
+   {
+    "date": "2026-05-12",
+    "shares": 14487900.0,
+    "nav": 14.92,
+    "market_price": 13.43,
+    "net_assets": 216197318.98,
+    "nav_change_pct": -0.0071
+   },
+   {
+    "date": "2026-05-13",
+    "shares": 14487900.0,
+    "nav": 14.18,
+    "market_price": 12.4,
+    "net_assets": 205450986.17,
+    "nav_change_pct": -0.0498
+   },
+   {
+    "date": "2026-05-14",
+    "shares": 14487900.0,
+    "nav": 14.65,
+    "market_price": 12.97,
+    "net_assets": 212284031.47,
+    "nav_change_pct": 0.0334
+   },
+   {
+    "date": "2026-05-15",
+    "shares": 14487900.0,
+    "nav": 13.97,
+    "market_price": 11.52,
+    "net_assets": 202334833.23,
+    "nav_change_pct": -0.0469
+   },
+   {
+    "date": "2026-05-18",
+    "shares": 14487900.0,
+    "nav": 14.93,
+    "market_price": 12.5,
+    "net_assets": 216342378.06,
+    "nav_change_pct": 0.0695
+   },
+   {
+    "date": "2026-05-19",
+    "shares": 14487900.0,
+    "nav": 15.38,
+    "market_price": 13.78,
+    "net_assets": 222759151.75,
+    "nav_change_pct": 0.0297
+   },
+   {
+    "date": "2026-05-20",
+    "shares": 14487900.0,
+    "nav": 18.21,
+    "market_price": 17.57,
+    "net_assets": 263833103.58,
+    "nav_change_pct": 0.1843
+   },
+   {
+    "date": "2026-05-21",
+    "shares": 14487900.0,
+    "nav": 17.94,
+    "market_price": 17.37,
+    "net_assets": 259866966.22,
+    "nav_change_pct": -0.015
+   },
+   {
+    "date": "2026-05-22",
+    "shares": 14487900.0,
+    "nav": 16.31,
+    "market_price": 15.72,
+    "net_assets": 236322172.47,
+    "nav_change_pct": -0.0905
+   },
+   {
+    "date": "2026-05-26",
+    "shares": 14487900.0,
+    "nav": 15.68,
+    "market_price": 15.11,
+    "net_assets": 227241936.93,
+    "nav_change_pct": -0.0384
+   },
+   {
+    "date": "2026-05-27",
+    "shares": 14487900.0,
+    "nav": 14.89,
+    "market_price": 13.0,
+    "net_assets": 215663640.99,
+    "nav_change_pct": -0.0508
+   },
+   {
+    "date": "2026-05-28",
+    "shares": 14487900.0,
+    "nav": 14.86,
+    "market_price": 13.44,
+    "net_assets": 215298271.61,
+    "nav_change_pct": -0.0018
+   },
+   {
+    "date": "2026-05-29",
+    "shares": 14487900.0,
+    "nav": 14.32,
+    "market_price": 12.45,
+    "net_assets": 207454041.81,
+    "nav_change_pct": -0.0363
+   },
+   {
+    "date": "2026-06-01",
+    "shares": 14487900.0,
+    "nav": 15.1,
+    "market_price": 13.59,
+    "net_assets": 218709260.16,
+    "nav_change_pct": 0.0545
+   },
+   {
+    "date": "2026-06-02",
+    "shares": 14487900.0,
+    "nav": 16.07,
+    "market_price": 15.64,
+    "net_assets": 232799066.17,
+    "nav_change_pct": 0.0645
+   },
+   {
+    "date": "2026-06-03",
+    "shares": 14487900.0,
+    "nav": 16.1,
+    "market_price": 14.81,
+    "net_assets": 233184195.98,
+    "nav_change_pct": 0.0017
+   },
+   {
+    "date": "2026-06-04",
+    "shares": 14487900.0,
+    "nav": 14.07,
+    "market_price": 12.52,
+    "net_assets": 203887864.97,
+    "nav_change_pct": -0.1257
+   },
+   {
+    "date": "2026-06-05",
+    "shares": 14487900.0,
+    "nav": 9.08,
+    "market_price": 8.0,
+    "net_assets": 131526775.86,
+    "nav_change_pct": -0.3548
+   },
+   {
+    "date": "2026-06-08",
+    "shares": 14487900.0,
+    "nav": 12.27,
+    "market_price": 9.52,
+    "net_assets": 177809992.19,
+    "nav_change_pct": 0.3522
+   },
+   {
+    "date": "2026-06-09",
+    "shares": 14487900.0,
+    "nav": 11.95,
+    "market_price": 9.03,
+    "net_assets": 173193185.19,
+    "nav_change_pct": -0.0261
+   },
+   {
+    "date": "2026-06-10",
+    "shares": 14487900.0,
+    "nav": 11.28,
+    "market_price": 8.67,
+    "net_assets": 163462836.43,
+    "nav_change_pct": -0.0561
+   },
+   {
+    "date": "2026-06-11",
+    "shares": 14487900.0,
+    "nav": 11.69,
+    "market_price": 9.24,
+    "net_assets": 169320472.3,
+    "nav_change_pct": 0.0357
+   },
+   {
+    "date": "2026-06-12",
+    "shares": 14487900.0,
+    "nav": 11.13,
+    "market_price": 9.31,
+    "net_assets": 161198922.69,
+    "nav_change_pct": -0.0479
+   },
+   {
+    "date": "2026-06-15",
+    "shares": 14487900.0,
+    "nav": 14.03,
+    "market_price": 11.6,
+    "net_assets": 203271306.28,
+    "nav_change_pct": 0.2613
+   },
+   {
+    "date": "2026-06-16",
+    "shares": 14487900.0,
+    "nav": 13.33,
+    "market_price": 10.55,
+    "net_assets": 193072144.23,
+    "nav_change_pct": -0.0501
+   },
+   {
+    "date": "2026-06-17",
+    "shares": 14487900.0,
+    "nav": 12.9,
+    "market_price": 9.95,
+    "net_assets": 186830711.05,
+    "nav_change_pct": -0.0323
+   },
+   {
+    "date": "2026-06-18",
+    "shares": 14487900.0,
+    "nav": 12.09,
+    "market_price": 9.06,
+    "net_assets": 175210354.84,
+    "nav_change_pct": -0.0623
+   },
+   {
+    "date": "2026-06-22",
+    "shares": 14487900.0,
+    "nav": 12.04,
+    "market_price": 9.78,
+    "net_assets": 174400138.96,
+    "nav_change_pct": -0.0044
+   },
+   {
+    "date": "2026-06-23",
+    "shares": 14487900.0,
+    "nav": 11.19,
+    "market_price": 9.13,
+    "net_assets": 162076883.45,
+    "nav_change_pct": -0.0706
+   },
+   {
+    "date": "2026-06-24",
+    "shares": 14487900.0,
+    "nav": 10.85,
+    "market_price": 8.6,
+    "net_assets": 157147039.14,
+    "nav_change_pct": -0.0304
+   },
+   {
+    "date": "2026-06-25",
+    "shares": 14487900.0,
+    "nav": 10.63,
+    "market_price": 8.72,
+    "net_assets": 153990828.49,
+    "nav_change_pct": -0.02
+   },
+   {
+    "date": "2026-06-26",
+    "shares": 14487900.0,
+    "nav": 11.15,
+    "market_price": 8.73,
+    "net_assets": 161534280.22,
+    "nav_change_pct": 0.0489
+   },
+   {
+    "date": "2026-06-29",
+    "shares": 14487900.0,
+    "nav": 10.93,
+    "market_price": 9.0,
+    "net_assets": 158399262.07,
+    "nav_change_pct": -0.0191
+   },
+   {
+    "date": "2026-06-30",
+    "shares": 14487900.0,
+    "nav": 10.71,
+    "market_price": 8.93,
+    "net_assets": 155162421.23,
+    "nav_change_pct": -0.0204
+   },
+   {
+    "date": "2026-07-01",
+    "shares": 14487900.0,
+    "nav": 11.02,
+    "market_price": 9.27,
+    "net_assets": 159605689.0,
+    "nav_change_pct": 0.0286
+   },
+   {
+    "date": "2026-07-02",
+    "shares": 14487900.0,
+    "nav": 11.61,
+    "market_price": 9.78,
+    "net_assets": 168245448.15,
+    "nav_change_pct": 0.0542
+   },
+   {
+    "date": "2026-07-06",
+    "shares": 14487900.0,
+    "nav": 12.07,
+    "market_price": 10.52,
+    "net_assets": 174866258.17,
+    "nav_change_pct": 0.0396
+   },
+   {
+    "date": "2026-07-07",
+    "shares": 14487900.0,
+    "nav": 13.28,
+    "market_price": 12.24,
+    "net_assets": 192433334.59,
+    "nav_change_pct": 0.1005
+   },
+   {
+    "date": "2026-07-08",
+    "shares": 14487900.0,
+    "nav": 12.5,
+    "market_price": 11.34,
+    "net_assets": 181131484.46,
+    "nav_change_pct": -0.0587
+   },
+   {
+    "date": "2026-07-09",
+    "shares": 14487900.0,
+    "nav": 12.99,
+    "market_price": 12.42,
+    "net_assets": 188270151.01,
+    "nav_change_pct": 0.0392
+   },
+   {
+    "date": "2026-07-10",
+    "shares": 14487900.0,
+    "nav": 13.54,
+    "market_price": 12.93,
+    "net_assets": 196134160.92,
+    "nav_change_pct": 0.0418
+   },
+   {
+    "date": "2026-07-13",
+    "shares": 14487900.0,
+    "nav": 13.5,
+    "market_price": 11.76,
+    "net_assets": 195534670.19,
+    "nav_change_pct": -0.003
+   },
+   {
+    "date": "2026-07-14",
+    "shares": 14487900.0,
+    "nav": 14.44,
+    "market_price": 12.81,
+    "net_assets": 209193360.85,
+    "nav_change_pct": 0.0699
+   },
+   {
+    "date": "2026-07-15",
+    "shares": 14487900.0,
+    "nav": 15.2,
+    "market_price": 13.3,
+    "net_assets": 220287567.49,
+    "nav_change_pct": 0.0529
+   },
+   {
+    "date": "2026-07-16",
+    "shares": 14487900.0,
+    "nav": 14.65,
+    "market_price": 12.8,
+    "net_assets": 212259041.43,
+    "nav_change_pct": -0.0364
+   },
+   {
+    "date": "2026-07-17",
+    "shares": 14487900.0,
+    "nav": 14.63,
+    "market_price": 12.71,
+    "net_assets": 211898986.13,
+    "nav_change_pct": -0.0016
+   },
+   {
+    "date": "2026-07-20",
+    "shares": 14487900.0,
+    "nav": 14.66,
+    "market_price": 12.55,
+    "net_assets": 212387202.21,
+    "nav_change_pct": 0.0025
+   },
+   {
+    "date": "2026-07-21",
+    "shares": 14487900.0,
+    "nav": 14.26,
+    "market_price": 12.59,
+    "net_assets": 206535405.32,
+    "nav_change_pct": -0.0275
+   },
+   {
+    "date": "2026-07-22",
+    "shares": 14487900.0,
+    "nav": 13.64,
+    "market_price": 11.59,
+    "net_assets": 197630153.08,
+    "nav_change_pct": -0.0433
+   },
+   {
+    "date": "2026-07-23",
+    "shares": 14487900.0,
+    "nav": 13.38,
+    "market_price": 11.36,
+    "net_assets": 193895103.62,
+    "nav_change_pct": -0.0188
+   },
+   {
+    "date": "2026-07-24",
+    "shares": 14487900.0,
+    "nav": 13.26,
+    "market_price": 10.88,
+    "net_assets": 192116262.65,
+    "nav_change_pct": -0.0092
+   },
+   {
+    "date": "2026-07-27",
+    "shares": 14487900.0,
+    "nav": 13.09,
+    "market_price": 10.93,
+    "net_assets": 189621030.82,
+    "nav_change_pct": -0.0131
+   },
+   {
+    "date": "2026-07-28",
+    "shares": 14487900.0,
+    "nav": 12.58,
+    "market_price": 10.26,
+    "net_assets": 182322737.01,
+    "nav_change_pct": -0.0385
+   },
+   {
+    "date": "2026-07-29",
+    "shares": 14487900.0,
+    "nav": 12.29,
+    "market_price": 10.07,
+    "net_assets": 178023927.63,
+    "nav_change_pct": -0.0236
+   },
+   {
+    "date": "2026-07-30",
+    "shares": 14487900.0,
+    "nav": 12.68,
+    "market_price": 10.99,
+    "net_assets": 183763932.79,
+    "nav_change_pct": 0.0323
+   },
+   {
+    "date": "2026-07-31",
+    "shares": 14487900.0,
+    "nav": 12.22,
+    "market_price": 10.33,
+    "net_assets": 177103609.82,
+    "nav_change_pct": -0.0363
+   },
+   {
+    "date": "2026-08-03",
+    "shares": 14487900.0,
+    "nav": 13.01,
+    "market_price": 10.95,
+    "net_assets": 188432747.41,
+    "nav_change_pct": 0.0641
+   },
+   {
+    "date": "2026-08-04",
+    "shares": 14487900.0,
+    "nav": 13.59,
+    "market_price": 12.0,
+    "net_assets": 196841619.36,
+    "nav_change_pct": 0.0446
+   },
+   {
+    "date": "2026-08-05",
+    "shares": 14487900.0,
+    "nav": 13.84,
+    "market_price": 12.57,
+    "net_assets": 200523074.9,
+    "nav_change_pct": 0.0186
+   },
+   {
+    "date": "2026-08-06",
+    "shares": 14487900.0,
+    "nav": 13.18,
+    "market_price": 11.93,
+    "net_assets": 190976045.75,
+    "nav_change_pct": -0.0474
+   },
+   {
+    "date": "2026-08-07",
+    "shares": 14487900.0,
+    "nav": 13.75,
+    "market_price": 12.91,
+    "net_assets": 199212441.25,
+    "nav_change_pct": 0.043
+   },
+   {
+    "date": "2026-08-10",
+    "shares": 14487900.0,
+    "nav": 13.31,
+    "market_price": 12.4,
+    "net_assets": 192784130.67,
+    "nav_change_pct": -0.0322
+   },
+   {
+    "date": "2026-08-11",
+    "shares": 14487900.0,
+    "nav": 12.74,
+    "market_price": 11.68,
+    "net_assets": 184593470.42,
+    "nav_change_pct": -0.0426
+   },
+   {
+    "date": "2026-08-12",
+    "shares": 14487900.0,
+    "nav": 13.13,
+    "market_price": 12.2,
+    "net_assets": 190180644.26,
+    "nav_change_pct": 0.0304
+   },
+   {
+    "date": "2026-08-13",
+    "shares": 14487900.0,
+    "nav": 12.96,
+    "market_price": 12.23,
+    "net_assets": 187753467.89,
+    "nav_change_pct": -0.0127
+   },
+   {
+    "date": "2026-08-14",
+    "shares": 14487900.0,
+    "nav": 13.14,
+    "market_price": 12.49,
+    "net_assets": 190433576.83,
+    "nav_change_pct": 0.0141
+   },
+   {
+    "date": "2026-08-17",
+    "shares": 14487900.0,
+    "nav": 13.76,
+    "market_price": 13.27,
+    "net_assets": 199323971.08,
+    "nav_change_pct": 0.0467
+   },
+   {
+    "date": "2026-08-18",
+    "shares": 14487900.0,
+    "nav": 13.62,
+    "market_price": 13.34,
+    "net_assets": 197288240.18,
+    "nav_change_pct": -0.0102
+   },
+   {
+    "date": "2026-08-19",
+    "shares": 14487900.0,
+    "nav": 14.75,
+    "market_price": 14.73,
+    "net_assets": 213736883.01,
+    "nav_change_pct": 0.0835
+   },
+   {
+    "date": "2026-08-20",
+    "shares": 14487900.0,
+    "nav": 15.23,
+    "market_price": 15.11,
+    "net_assets": 220701719.45,
+    "nav_change_pct": 0.0325
+   },
+   {
+    "date": "2026-08-21",
+    "shares": 14487900.0,
+    "nav": 18.19,
+    "market_price": 18.1,
+    "net_assets": 263462980.15,
+    "nav_change_pct": 0.1939
+   },
+   {
+    "date": "2026-08-24",
+    "shares": 14487900.0,
+    "nav": 21.64,
+    "market_price": 21.36,
+    "net_assets": 313533467.75,
+    "nav_change_pct": 0.1901
+   }
+  ]
+ },
+ "series": [
+  {
+   "date": "2026-08-25",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-08-25",
+     "shares": 14487900.0,
+     "nav": 21.02,
+     "market_price": 21.03,
+     "net_assets": 304587362.81,
+     "nav_change_pct": -0.0285,
+     "flow": 0.0,
+     "conversion": true
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 304587362.81,
+   "cum_flow": 0.0
+  },
+  {
+   "date": "2026-08-26",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-08-26",
+     "shares": 14487900.0,
+     "nav": 20.93,
+     "market_price": 20.99,
+     "net_assets": 303292747.01,
+     "nav_change_pct": -0.0043,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 303292747.01,
+   "cum_flow": 0.0
+  },
+  {
+   "date": "2026-08-27",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-08-27",
+     "shares": 14487900.0,
+     "nav": 21.83,
+     "market_price": 21.94,
+     "net_assets": 316260273.86,
+     "nav_change_pct": 0.0428,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 316260273.86,
+   "cum_flow": 0.0
+  },
+  {
+   "date": "2026-08-28",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-08-28",
+     "shares": 14697900.0,
+     "nav": 21.29,
+     "market_price": 21.36,
+     "net_assets": 312987737.1,
+     "nav_change_pct": -0.0246,
+     "flow": 4470900.0
+    }
+   },
+   "flow": 4470900.0,
+   "net_assets": 312987737.1,
+   "cum_flow": 4470900.0
+  },
+  {
+   "date": "2026-08-31",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-08-31",
+     "shares": 15087900.0,
+     "nav": 22.93,
+     "market_price": 22.98,
+     "net_assets": 345967397.98,
+     "nav_change_pct": 0.0769,
+     "flow": 8942700.0
+    }
+   },
+   "flow": 8942700.0,
+   "net_assets": 345967397.98,
+   "cum_flow": 13413600.0
+  },
+  {
+   "date": "2026-09-01",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-01",
+     "shares": 15477900.0,
+     "nav": 22.18,
+     "market_price": 22.2,
+     "net_assets": 343367220.69,
+     "nav_change_pct": -0.0326,
+     "flow": 8650200.0
+    }
+   },
+   "flow": 8650200.0,
+   "net_assets": 343367220.69,
+   "cum_flow": 22063800.0
+  },
+  {
+   "date": "2026-09-02",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-02",
+     "shares": 16047900.0,
+     "nav": 21.7,
+     "market_price": 21.69,
+     "net_assets": 348310924.24,
+     "nav_change_pct": -0.0216,
+     "flow": 12369000.0
+    }
+   },
+   "flow": 12369000.0,
+   "net_assets": 348310924.24,
+   "cum_flow": 34432800.0
+  },
+  {
+   "date": "2026-09-03",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-03",
+     "shares": 16047900.0,
+     "nav": 25.84,
+     "market_price": 25.95,
+     "net_assets": 414705019.74,
+     "nav_change_pct": 0.1908,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 414705019.74,
+   "cum_flow": 34432800.0
+  },
+  {
+   "date": "2026-09-04",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-04",
+     "shares": 16647900.0,
+     "nav": 27.83,
+     "market_price": 27.92,
+     "net_assets": 463232740.02,
+     "nav_change_pct": 0.0767,
+     "flow": 16698000.0
+    }
+   },
+   "flow": 16698000.0,
+   "net_assets": 463232740.02,
+   "cum_flow": 51130800.0
+  },
+  {
+   "date": "2026-09-08",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-08",
+     "shares": 17397900.0,
+     "nav": 30.63,
+     "market_price": 30.57,
+     "net_assets": 532947183.53,
+     "nav_change_pct": 0.1011,
+     "flow": 22972500.0
+    }
+   },
+   "flow": 22972500.0,
+   "net_assets": 532947183.53,
+   "cum_flow": 74103300.0
+  },
+  {
+   "date": "2026-09-09",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-09",
+     "shares": 21057900.0,
+     "nav": 33.39,
+     "market_price": 33.41,
+     "net_assets": 703082863.79,
+     "nav_change_pct": 0.0899,
+     "flow": 122207400.0
+    }
+   },
+   "flow": 122207400.0,
+   "net_assets": 703082863.79,
+   "cum_flow": 196310700.0
+  },
+  {
+   "date": "2026-09-10",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-10",
+     "shares": 20937900.0,
+     "nav": 30.01,
+     "market_price": 30.01,
+     "net_assets": 628292728.85,
+     "nav_change_pct": -0.1012,
+     "flow": -3601200.0
+    }
+   },
+   "flow": -3601200.0,
+   "net_assets": 628292728.85,
+   "cum_flow": 192709500.0
+  },
+  {
+   "date": "2026-09-11",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-11",
+     "shares": 20667900.0,
+     "nav": 31.4,
+     "market_price": 31.47,
+     "net_assets": 649002610.49,
+     "nav_change_pct": 0.0464,
+     "flow": -8478000.0
+    }
+   },
+   "flow": -8478000.0,
+   "net_assets": 649002610.49,
+   "cum_flow": 184231500.0
+  },
+  {
+   "date": "2026-09-14",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-14",
+     "shares": 20727900.0,
+     "nav": 31.9,
+     "market_price": 32.0,
+     "net_assets": 661131197.2,
+     "nav_change_pct": 0.0159,
+     "flow": 1914000.0
+    }
+   },
+   "flow": 1914000.0,
+   "net_assets": 661131197.2,
+   "cum_flow": 186145500.0
+  },
+  {
+   "date": "2026-09-15",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-15",
+     "shares": 20817900.0,
+     "nav": 30.13,
+     "market_price": 30.24,
+     "net_assets": 627328204.91,
+     "nav_change_pct": -0.0553,
+     "flow": 2711700.0
+    }
+   },
+   "flow": 2711700.0,
+   "net_assets": 627328204.91,
+   "cum_flow": 188857200.0
+  },
+  {
+   "date": "2026-09-16",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-16",
+     "shares": 21117900.0,
+     "nav": 34.43,
+     "market_price": 34.51,
+     "net_assets": 727109243.94,
+     "nav_change_pct": 0.1426,
+     "flow": 10329000.0
+    }
+   },
+   "flow": 10329000.0,
+   "net_assets": 727109243.94,
+   "cum_flow": 199186200.0
+  },
+  {
+   "date": "2026-09-17",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-17",
+     "shares": 21177900.0,
+     "nav": 39.8,
+     "market_price": 40.03,
+     "net_assets": 842860951.18,
+     "nav_change_pct": 0.156,
+     "flow": 2388000.0
+    }
+   },
+   "flow": 2388000.0,
+   "net_assets": 842860951.18,
+   "cum_flow": 201574200.0
+  },
+  {
+   "date": "2026-09-18",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-18",
+     "shares": 22347900.0,
+     "nav": 39.24,
+     "market_price": 39.24,
+     "net_assets": 876861196.09,
+     "nav_change_pct": -0.0142,
+     "flow": 45910800.0
+    }
+   },
+   "flow": 45910800.0,
+   "net_assets": 876861196.09,
+   "cum_flow": 247485000.0
+  },
+  {
+   "date": "2026-09-21",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-21",
+     "shares": 23307900.0,
+     "nav": 39.26,
+     "market_price": 39.32,
+     "net_assets": 915116808.06,
+     "nav_change_pct": 0.0008,
+     "flow": 37689600.0
+    }
+   },
+   "flow": 37689600.0,
+   "net_assets": 915116808.06,
+   "cum_flow": 285174600.0
+  },
+  {
+   "date": "2026-09-22",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-22",
+     "shares": 23367900.0,
+     "nav": 40.51,
+     "market_price": 40.62,
+     "net_assets": 946661936.12,
+     "nav_change_pct": 0.0318,
+     "flow": 2430600.0
+    }
+   },
+   "flow": 2430600.0,
+   "net_assets": 946661936.12,
+   "cum_flow": 287605200.0
+  },
+  {
+   "date": "2026-09-23",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-23",
+     "shares": 24177900.0,
+     "nav": 40.43,
+     "market_price": 40.53,
+     "net_assets": 977429153.53,
+     "nav_change_pct": -0.0021,
+     "flow": 32748300.0
+    }
+   },
+   "flow": 32748300.0,
+   "net_assets": 977429153.53,
+   "cum_flow": 320353500.0
+  },
+  {
+   "date": "2026-09-24",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-24",
+     "shares": 24177900.0,
+     "nav": 41.5,
+     "market_price": 41.56,
+     "net_assets": 1003419953.84,
+     "nav_change_pct": 0.0266,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 1003419953.84,
+   "cum_flow": 320353500.0
+  },
+  {
+   "date": "2026-09-25",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-25",
+     "shares": 24177900.0,
+     "nav": 41.18,
+     "market_price": 41.16,
+     "net_assets": 995678225.79,
+     "nav_change_pct": -0.0077,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 995678225.79,
+   "cum_flow": 320353500.0
+  },
+  {
+   "date": "2026-09-28",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-28",
+     "shares": 24177900.0,
+     "nav": 38.67,
+     "market_price": 38.55,
+     "net_assets": 934959649.87,
+     "nav_change_pct": -0.0609,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 934959649.87,
+   "cum_flow": 320353500.0
+  },
+  {
+   "date": "2026-09-29",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-29",
+     "shares": 23967900.0,
+     "nav": 37.14,
+     "market_price": 37.0,
+     "net_assets": 890089644.82,
+     "nav_change_pct": -0.0397,
+     "flow": -7799400.0
+    }
+   },
+   "flow": -7799400.0,
+   "net_assets": 890089644.82,
+   "cum_flow": 312554100.0
+  },
+  {
+   "date": "2026-09-30",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-09-30",
+     "shares": 23967900.0,
+     "nav": 37.81,
+     "market_price": 37.94,
+     "net_assets": 906162689.99,
+     "nav_change_pct": 0.018,
+     "flow": 0.0,
+     "split_adjusted": true
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 906162689.99,
+   "cum_flow": 312554100.0
+  },
+  {
+   "date": "2026-10-01",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-10-01",
+     "shares": 23167900.0,
+     "nav": 35.32,
+     "market_price": 35.12,
+     "net_assets": 818376707.89,
+     "nav_change_pct": -0.0659,
+     "flow": -28256000.0
+    }
+   },
+   "flow": -28256000.0,
+   "net_assets": 818376707.89,
+   "cum_flow": 284298100.0
+  },
+  {
+   "date": "2026-10-02",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-10-02",
+     "shares": 22817900.0,
+     "nav": 34.09,
+     "market_price": 34.04,
+     "net_assets": 777967495.44,
+     "nav_change_pct": -0.0348,
+     "flow": -11931500.0
+    }
+   },
+   "flow": -11931500.0,
+   "net_assets": 777967495.44,
+   "cum_flow": 272366600.0
+  },
+  {
+   "date": "2026-10-05",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-10-05",
+     "shares": 22027900.0,
+     "nav": 35.66,
+     "market_price": 35.75,
+     "net_assets": 785522288.76,
+     "nav_change_pct": 0.0461,
+     "flow": -28171400.0
+    }
+   },
+   "flow": -28171400.0,
+   "net_assets": 785522288.76,
+   "cum_flow": 244195200.0
+  },
+  {
+   "date": "2026-10-06",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-10-06",
+     "shares": 21927900.0,
+     "nav": 36.0,
+     "market_price": 36.07,
+     "net_assets": 789341375.15,
+     "nav_change_pct": 0.0095,
+     "flow": -3600000.0
+    }
+   },
+   "flow": -3600000.0,
+   "net_assets": 789341375.15,
+   "cum_flow": 240595200.0
+  },
+  {
+   "date": "2026-10-07",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-10-07",
+     "shares": 21927900.0,
+     "nav": 35.37,
+     "market_price": 35.35,
+     "net_assets": 775503618.06,
+     "nav_change_pct": -0.0175,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 775503618.06,
+   "cum_flow": 240595200.0
+  }
+ ],
+ "listing_watch": [
+  {
+   "ticker": "WINK",
+   "cik": "2158471",
+   "exchanges": [],
+   "has_8a": false,
+   "latest_form": "S-1",
+   "latest_form_date": "2026-10-06",
+   "action": "no 8-A yet"
+  }
+ ],
+ "caveats": [
+  "Flow excludes price movement. Net assets can fall hard on a zero-flow day \u2014 ZEC is the most volatile of the three assets tracked here.",
+  "Conversion day carries no flow: the trust's existing assets arrived years earlier, they did not get created on 25 Aug 2026.",
+  "Pre-ETF sessions are excluded from every headline number. The trust had no redemption programme, so its share changes were private placements.",
+  "ZCSH ran a 3-for-1 forward split effective 30 Sep 2026. Grayscale restates the published history, so shares and NAV sit on one basis throughout.",
+  "Unlike a cold-launch fund, a converted trust carries legacy holders who can finally redeem \u2014 which is why this complex prints genuine outflows."
+ ]
+}
