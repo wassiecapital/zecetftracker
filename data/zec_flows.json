@@ -1,7 +1,7 @@
 {
  "asset": "ZEC",
  "asset_name": "Zcash",
- "updated_utc": "2026-11-21T17:46:06+00:00",
+ "updated_utc": "2026-11-24T06:25:03+00:00",
  "method": "flow = change in shares outstanding x NAV, per fund, per trading day, from the ETF's first trade date; NAV and shares come from the issuer's own daily workbook and are split-restated",
  "funds": [
   {
@@ -44,14 +44,14 @@
  ],
  "coins_held": {
   "ZCSH": {
-   "zec_per_share": 0.0265664,
-   "as_of": "2026-11-20"
+   "zec_per_share": 0.02656088,
+   "as_of": "2026-11-23"
   }
  },
  "coins_total": {
-  "amount": 534725.8426,
+  "amount": 526646.4726,
   "unit": "ZEC",
-  "as_of": "2026-11-20"
+  "as_of": "2026-11-23"
  },
  "splits": {
   "ZCSH": {
@@ -2103,6 +2103,23 @@
    "flow": -584400.0,
    "net_assets": 392141126.97,
    "cum_flow": 196705100.0
+  },
+  {
+   "date": "2026-11-23",
+   "by_fund": {
+    "ZCSH": {
+     "date": "2026-11-23",
+     "shares": 19827900.0,
+     "nav": 21.03,
+     "market_price": 21.24,
+     "net_assets": 416940773.31,
+     "nav_change_pct": 0.0796,
+     "flow": -6309000.0
+    }
+   },
+   "flow": -6309000.0,
+   "net_assets": 416940773.31,
+   "cum_flow": 190396100.0
   }
  ],
  "listing_watch": [
